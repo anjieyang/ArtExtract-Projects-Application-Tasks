@@ -11,6 +11,8 @@ The CNN model's last fully connected layer was replaced with an identity functio
 ### Data Preprocessing:
 The data augmentation strategy involved random cropping with padding if needed, ensuring a consistent input size for the network and introducing variability into the dataset to reduce overfitting. The dataset was split into training (60%), validation (20%), and test (20%) sets to evaluate the model's performance adequately.
 
+In order to ensure the integrity of the dataset, we have incorporated an addtional preprocessing step aimed at identifying and exclusing potentially corrupt images.
+
 ### Evaluation Metrics:
 The model's performance was evaluated using Accuracy and the F1 score. Accuracy provides a straightforward metric for overall performance, while the F1 score, being the harmonic mean of precision and recall, offers a more nuanced view, especially useful in imbalanced datasets.
 
