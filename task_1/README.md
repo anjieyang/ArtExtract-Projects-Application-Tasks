@@ -21,6 +21,3 @@ The validation phase after each epoch provided insights into the model's general
 
 ### Outliers:
 To identify outliers, such as artworks incorrectly classified despite their assignment to a specific artist or genre, we can analyze cases where the model's confidence in its predictions is low. Additionally, comparing the model's predictions with the true labels and examining the misclassified examples in detail can reveal common characteristics of outliers.
-
-### Conclusion:
-The convolutional-recurrent architecture demonstrated promising results for the task of classifying artistic attributes in the WikiArt dataset. By combining the feature extraction capabilities of CNNs with the sequential understanding of RNNs, the model could capture complex patterns in art.
